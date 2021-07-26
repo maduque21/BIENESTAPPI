@@ -1,0 +1,123 @@
+div{
+    width:30px;
+    height:30px;
+    background-color:#f5740a;
+    margin: 50px;
+    padding:120px;
+    -webkit-border-radius: 140px;
+    -moz-border-radius: 140px;
+    border-radius: 140px;
+    font-size:20px;
+    line-height:40px;
+    text-transform: uppercase;
+    float:left;
+    
+    
+  }
+  .boton:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+    cursor: pointer;
+  }
+  .boton a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+
+ img.deporte{
+
+width: 90px;
+height: 100px;
+
+ }
+
+ a{
+
+text-align: center;
+font-weight: bold;
+color: black;
+text-justify: inter-word;
+text-decoration-color: black;
+
+ }
+
+ #main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 20px 0 0 20px;
+	text-decoration: none;
+}
+	
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 25px;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 20px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #e7902c;
+				}
+
+
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+  li{
+
+    font-size: 20px;
+  }
